@@ -1,0 +1,27 @@
+{
+  "name": "@jamestomasino/sprightly-cli",
+  "version": "1.0.0",
+  "description": "A simple cli wrapper to obadakhalili/sprightly",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamestomasino/sprightly-cli.git"
+  },
+  "keywords": [
+    "sprightly"
+  ],
+  "bin": "./index.js",
+  "author": "James Tomasino",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jamestomasino/sprightly-cli/issues"
+  },
+  "homepage": "https://github.com/jamestomasino/sprightly-cli#readme",
+  "dependencies": {
+    "sprightly": "^2.0.1",
+    "yargs": "13.2"
+  }
+}
